@@ -1,12 +1,12 @@
 const applicantOne = {
-    name:"Tyrion",
+    firstName:"Tyrion",
     lastName:"Lannister",
     tvShow: "GOT",
     power:"Drinking and knowledge"
 };
 
 const applicantTwo = {
-    name:"Arya",
+    firstName:"Arya",
     lastName:"Stark",
     tvShow:"GOT",
     power:"100% badass"
@@ -34,5 +34,5 @@ applicants.push(applicantTwo);
 const serializeTwo = JSON.stringify(applicants);
 window.localStorage.setItem('applicants', serializeTwo);
 
-const serializeThree = JSON.stringify('applicants');
-window.localStorage.setItem('applicants', serializeThree);
+// const serializeThree = JSON.stringify('applicants');
+// window.localStorage.setItem('applicants', serializeThree);
